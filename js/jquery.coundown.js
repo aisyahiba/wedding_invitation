@@ -7,7 +7,7 @@
 (function ($) {
 	$.fn.countdown = function (options, callback) {
 		var settings = $.extend({
-			date: null,
+			date: "05/16/2026 11:00:00",
 			offset: null,
 			day: 'Hari',
 			days: 'Hari',
